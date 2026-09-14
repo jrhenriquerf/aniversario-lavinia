@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff7e9">
+  <meta name="description" content="Uma fazendinha cheia de amor para celebrar os 2 aninhos da Lavinia. Veja a festa, sugestões de presentes e tamanhos.">
+  <title>Lavinia faz 2! • Uma fazendinha de amor</title>
+  <link rel="icon" href="assets/flor.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght,SOFT,WONK@9..144,600,50,1;9..144,700,50,1;9..144,800,50,1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+  <div class="topline">Um chapéu, muitas brincadeiras e dois aninhos de amor!</div>
+  <header class="header wrap">
+    <a class="brand" href="#inicio" aria-label="Lavinia, início"><img src="assets/flor.svg" width="34" height="34" alt=""> Lavinia <span>faz 2!</span></a>
+    <nav aria-label="Navegação principal"><a href="#festa">A festinha</a><a href="#presentes">Presentes</a><a class="nav-pix" href="#pix">Um carinho via Pix <span aria-hidden="true">♡</span></a></nav>
+  </header>
+  <main id="conteudo">
+    <section class="hero wrap" id="inicio" aria-labelledby="titulo">
+      <div class="hero-copy">
+        <div class="eyebrow"><span aria-hidden="true">✦</span> A FAZENDINHA DA LAVINIA</div>
+        <h1 id="titulo">Pequena no tamanho.<br><em>Gigante na alegria!</em></h1>
+        <p class="intro">Nossa pequena cowgirl vai fazer <strong>2 aninhos</strong> e você faz parte dessa história tão bonita. Vem celebrar com a gente!</p>
+        <div class="hero-actions"><a class="button primary" href="#presentes">Ver a listinha de presentes <span aria-hidden="true">↗</span></a><a class="text-link" href="#festa">Conheça a festinha ↓</a></div>
+        <p class="love-note"><span aria-hidden="true">♡</span> Sua presença é o nosso maior presente.</p>
+      </div>
+      <div class="hero-art"><div class="art-frame"><img class="hero-image" src="assets/fazendinha.webp" alt="Pequena cowgirl com Bluey e Bingo em uma fazendinha florida" width="900" height="900" fetchpriority="high"></div><div class="age-seal"><strong>2</strong><span>aninhos</span><small>DE PURO AMOR</small></div><span class="art-caption">Tem aventura boa chegando por aqui!</span></div>
+    </section>
+    <section class="party-section" id="festa" aria-labelledby="festa-titulo"><div class="wrap">
+      <div class="section-kicker">ANOTA COM CARINHO</div><h2 id="festa-titulo">Nosso encontro na fazendinha</h2>
+      <div class="party-grid"><div><span class="detail-icon" aria-hidden="true">☀</span><p>A FESTINHA</p><strong>18 de outubro</strong><span>às 14h • muita diversão!</span></div><div><span class="detail-icon" aria-hidden="true">⌂</span><p>ONDE VAMOS BRINCAR</p><strong>Rua José bechir, 1-38</strong><span>O endereço do nosso encontro</span></div><div><span class="detail-icon" aria-hidden="true">♡</span><p>O GRANDE DIA DELA</p><strong>16 de outubro</strong><span>Lavinia completa 2 aninhos</span></div></div>
+      <div class="party-foot"><p>Confirme sua presença com a família até <strong>9 de outubro.</strong></p><a class="text-link" href="assets/convite.jpeg" target="_blank" rel="noopener">Abrir o convite completo ↗</a></div>
+    </div></section>
+    <section class="gifts wrap" id="presentes" aria-labelledby="presentes-titulo">
+      <div class="section-kicker">MIMOS PARA A NOSSA PEQUENA</div><h2 id="presentes-titulo">Uma listinha cheia de carinho <span aria-hidden="true">♡</span></h2><p class="section-description">Para quem quiser presentear, separamos algumas ideias para brincar,<br class="desktop"> descobrir o mundo e viver muitas aventuras. Escolha com o coração!</p>
+      <div class="sizes"><div class="size-intro"><img src="assets/flor.svg" width="36" height="36" alt=""><div><strong>Para acertar no mimo</strong><span>Os tamanhos da Lavinia</span></div></div><div><span aria-hidden="true">👗</span><p>ROUPINHAS<strong>Tamanho 2 ou 3</strong></p></div><div><span aria-hidden="true">👟</span><p>CALÇADOS<strong>Tamanho 21/23</strong></p></div><p class="size-tip">Um pouquinho de amor<br>em cada escolha.</p></div>
+      <div class="catalog-controls"><div class="filters" role="group" aria-label="Filtrar presentes por categoria"><button type="button" class="filter active" data-category="Todos" aria-pressed="true">Todos <span>22</span></button><button type="button" class="filter" data-category="Brinquedos" aria-pressed="false">Brinquedos</button><button type="button" class="filter" data-category="Roupinhas" aria-pressed="false">Roupinhas</button><button type="button" class="filter" data-category="Calçados" aria-pressed="false">Calçados</button><button type="button" class="filter" data-category="Cuidados" aria-pressed="false">Cuidados</button></div><label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Buscar um mimo…" aria-label="Buscar um presente"></label></div>
+      <div class="catalog-meta"><p id="result-count" role="status" aria-live="polite">22 ideias para presentear</p><label>Ordenar: <select id="sort"><option value="original">Nossa listinha</option><option value="price">Menor preço</option><option value="name">Nome de A a Z</option></select></label></div>
+      <div class="gift-grid" id="gift-grid"></div><p class="empty" id="empty" hidden>Nenhum mimo por aqui com essa busca. Tente outro nome ou categoria. <button type="button" id="reset">Limpar filtros</button></p>
+      <noscript><p>Ative o JavaScript para navegar pela lista de presentes. O convite, os tamanhos e a chave Pix continuam disponíveis nesta página.</p></noscript>
+      <p class="catalog-note">Preços de referência enviados pela família, sujeitos a alterações. Confira o valor, a faixa etária e as opções na loja. As imagens dos cartões são ilustrativas.</p>
+    </section>
+    <section class="pix-section wrap" id="pix" aria-labelledby="pix-titulo"><div class="pix-copy"><div class="section-kicker">OUTRO JEITINHO DE PRESENTEAR</div><h2 id="pix-titulo">Um carinho que vira<br>novas descobertas.</h2><p>Se preferir, você também pode enviar um mimo via Pix. Qualquer valor será recebido com muito amor!</p><span class="pix-flower" aria-hidden="true">✿</span></div><div class="pix-card"><span class="pix-tag">PIX DA LAVINIA <span aria-hidden="true">♡</span></span><p class="pix-label">CHAVE PIX • CELULAR</p><label class="sr-only" for="pix-key">Chave Pix</label><input id="pix-key" value="14991333495" readonly><div class="pix-recipient"><strong>Karen maximo</strong><span>Banco Inter</span></div><button class="button primary" id="copy-pix" type="button">Copiar chave Pix <span aria-hidden="true">▢</span></button><p id="pix-status" role="status" aria-live="polite">Feito com carinho, recebido com amor.</p></div></section>
+    <section class="closing wrap"><img src="assets/flor.svg" width="48" height="48" alt=""><h2>O melhor presente é ter você por perto.</h2><p>Obrigada por fazer parte dos meus primeiros capítulos.<br>Espero você para uma tarde cheia de sorrisos!</p><span class="signature">Com amor, Lavinia ♡</span></section>
+  </main><footer><a class="brand" href="#inicio">Lavinia <span>faz 2!</span></a><p>Uma fazendinha de amor. Uma lembrança para sempre.</p><a href="#inicio">Voltar ao topo ↑</a></footer>
+</body>
+</html>

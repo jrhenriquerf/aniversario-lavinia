@@ -55,3 +55,17 @@ Ferramenta: ImageGen integrado. O acesso direto à imagem de referência falhou 
 Prompt final:
 
 > New square illustration for a two-year-old girl's birthday website. Sweet storybook little brown-haired cowgirl toddler with pigtails, brown cowboy hat pink band gold star, pink gingham shirt, denim skirt and boots, with Bluey and Bingo dressed as cowboys smiling beside her. Charming rural birthday party, daisies, wooden fence, warm red barn, pale blue sky and soft green meadow. Pastel warm cream, dusty coral pink, honey brown, sage green. Hand-painted watercolor and colored pencil paper texture, sophisticated children's picture book. Full body figures, centered with breathing room, very cute happy mood. No text, no letters, no numbers, no frame, no invitation layout. Image fills square, bottom foreground daisies.
+
+## Prévia de links no WhatsApp
+
+O `index.html` contém metadados Open Graph estáticos (título, descrição, endereço e imagem), lidos sem executar JavaScript. Também foram adicionados metadados Twitter Card para compatibilidade com outros aplicativos.
+
+- Endereço configurado, confirmado no ar: `https://jrhenriquerf.github.io/aniversario-lavinia/`.
+- Capa: `assets/compartilhar-lavinia-v1.jpg`, JPEG de 1200 × 630 px.
+- Fonte editável da capa: `render-share.cjs`, um layout HTML/CSS renderizado com Playwright que reaproveita a ilustração existente. Para gerar novamente: `node render-share.cjs`, com Playwright disponível como descrito na seção de verificação.
+- Para ativar a prévia, envie o HTML atualizado e a nova imagem para a branch publicada pelo GitHub Pages. Apenas salvar localmente não altera o site público.
+- Depois da publicação, confira que a URL completa da imagem abre normalmente. Cole o endereço público da página em uma conversa do WhatsApp e aguarde a prévia antes de enviar. O endereço localhost não é acessível aos destinatários.
+- O formato final do cartão depende do aplicativo. Se continuar aparecendo uma versão antiga, pode haver cache: aguarde e teste um novo compartilhamento. Ao mudar a capa no futuro, use um novo nome (`v2`, por exemplo) e atualize as URLs nos metadados. Mensagens antigas podem manter a prévia anterior.
+- Caso mude de domínio ou nome do repositório, atualize `canonical`, `og:url`, `og:image`, `og:image:secure_url` e `twitter:image` para URLs absolutas do novo endereço.
+
+Referência: https://ogp.me/

@@ -12,9 +12,9 @@ const gifts = [
  {name:'Conjuntinho listrado',category:'Roupinhas',detail:'Regata e calça de perna larga Souflis. Tamanho 2 ou 3.',price:null,store:'SHEIN',icon:'clothes',url:'https://onelink.shein.com/52/620532yimic0?shc=2_RccwoJ8m3QS'},
  {name:'Macacão floral com laços',category:'Roupinhas',detail:'Estampa delicada e babados para o verão. Tamanho 2 ou 3.',price:null,store:'SHEIN',icon:'dress',url:'https://onelink.shein.com/52/62054gaagky8?shc=2_RccwZypEpTw'},
  {name:'Calça jeans flare',category:'Roupinhas',detail:'Cintura elástica. A loja envia uma estampa aleatória. Tamanho 2 ou 3.',price:null,store:'SHEIN',icon:'clothes',url:'https://onelink.shein.com/52/620555xovw62?shc=2_Rccw00mezXc'},
- {name:'Tênis Fila Play Baby',category:'Calçados',detail:'Cinza e prata. Calçado tamanho 21/23.',price:null,store:'Netshoes',icon:'shoe',url:'https://share.google/XMwlbmV37HtFCwY8O'},
- {name:'Botinha LED borboleta',category:'Calçados',detail:'Branca, com detalhe de borboleta. Tamanho 21/23.',price:null,store:'Netshoes',icon:'shoe',url:'https://share.google/CmJHDt6Juj0GaLHkv'},
- {name:'Tênis de luzinhas LED',category:'Calçados',detail:'Branco e rosa para iluminar os passinhos. Tamanho 21/23.',price:null,store:'Netshoes',icon:'shoe',url:'https://share.google/GoFndt1rsAcpZQByw'},
+ {name:'Tênis Fila Play Baby',category:'Calçados',detail:'Cinza e prata. Calçado tamanho 21/22.',price:null,store:'Netshoes',icon:'shoe',url:'https://share.google/XMwlbmV37HtFCwY8O'},
+ {name:'Botinha LED borboleta',category:'Calçados',detail:'Branca, com detalhe de borboleta. Tamanho 21/22.',price:null,store:'Netshoes',icon:'shoe',url:'https://share.google/CmJHDt6Juj0GaLHkv'},
+ {name:'Tênis de luzinhas LED',category:'Calçados',detail:'Branco e rosa para iluminar os passinhos. Tamanho 21/22.',price:null,store:'Netshoes',icon:'shoe',url:'https://share.google/GoFndt1rsAcpZQByw'},
  {name:'Kit Jubinha • Widi',category:'Cuidados',detail:'Shampoo, condicionador e creme infantil.',price:80.91,store:'Mercado Livre',icon:'care',url:'https://www.mercadolivre.com.br/kit-jubinha-infantil-shampoo-condicionador-e-creme-widi/p/MLB63976657?pdp_filters=item_id%3AMLB6819859646&matt_tool=38524122&ua=HqFzd_VUqQVosiVE2yiSxk7ODCYKOQMvq9QZPslSSt9ibtM#origin=whatsapp&sid=whatsapp&wid=MLB6819859646'},
  {name:'Kit de cuidado dos cachinhos',category:'Cuidados',detail:'Pente, borrifador névoa e escovinha baby hair.',price:36.30,store:'Mercado Livre',icon:'care',url:'https://produto.mercadolivre.com.br/MLB-4084269849-kit-pente-borrifador-nevoa-spray-escovinha-baby-hair-argola-_JM?matt_tool=38524122&ua=D3FoOyoVGrNRstHmyttT-vWTAdk9CQr_4VPLQDODPQs_yIU#origin=whatsapp&sid=whatsapp'},
  {name:'Maleta de pintura Bluey',category:'Brinquedos',detail:'Com lápis, guache e adesivos para criar.',price:59.90,store:'Shopee',icon:'art',url:'https://br.shp.ee/Y7nmpvv6'},
@@ -22,7 +22,7 @@ const gifts = [
  {name:'Carrinhos Patrulha Canina',category:'Brinquedos',detail:'Kit com opções de 3, 6 ou 9 carrinhos de fricção.',price:26.94,store:'Shopee',icon:'car',url:'https://br.shp.ee/3jUoJ29w'},
  {name:'Troninho Styll Baby',category:'Cuidados',detail:'Privadinha e assento redutor para o desfralde.',price:66.50,store:'Shopee',icon:'potty',url:'https://br.shp.ee/w2cELhUh'},
  {name:'Boneca Skye para pintar',category:'Brinquedos',detail:'Patrulha Canina com kit de pintura.',price:68.88,store:'Shopee',icon:'doll',url:'https://br.shp.ee/KQ4fuZ2M'},
- {name:'Tênis branco infantil',category:'Calçados',detail:'Levinho e macio. Tamanho 21/23.',price:39.89,priceMax:42.57,store:'Shopee',icon:'shoe',url:'https://br.shp.ee/2KG563LW'}
+ {name:'Tênis branco infantil',category:'Calçados',detail:'Levinho e macio. Tamanho 21/22.',price:39.89,priceMax:42.57,store:'Shopee',icon:'shoe',url:'https://br.shp.ee/2KG563LW'}
 ];
 const money = new Intl.NumberFormat('pt-BR',{style:'currency',currency:'BRL'});
 const normalize = text => text.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();

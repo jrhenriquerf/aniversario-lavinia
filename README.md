@@ -31,7 +31,7 @@ Documentação: https://docs.github.com/en/pages/getting-started-with-github-pag
 
 Foram preservadas as duas datas: Lavinia completa 2 anos em **16/10** e a festa do convite acontece em **18/10 às 14h**, na **Rua José bechir, 1-38**. Confirmação com a família até **09/10**. Nenhum WhatsApp foi associado automaticamente à chave Pix. Não foram inventados cidade, ano ou contato de confirmação.
 
-Roupas: **2 ou 3**. Calçados: **21/23**, conforme informado. Pix: **14991333495**, **Karen maximo**, **Inter**.
+Roupas: **2 ou 3**. Calçados: **21/22**, conforme informado. Pix: **14991333495**, **Karen maximo**, **Inter**.
 
 Os preços são os enviados pela família, sem promessa de desconto ou atualização automática. As lojas bloquearam a consulta automatizada de fotos; os 22 links fornecidos foram mantidos. A página não reserva presentes e não registra pagamentos.
 
